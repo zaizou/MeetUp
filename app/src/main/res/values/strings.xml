@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MeetUp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_meet_up">MeetUpActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_meet">MeetActivity</string>
+    <string name="title_activity_meet_me">MeetMe</string>
+
+    <array name="menu_items">
+        <item>Posts</item>
+        <item>Events</item>
+        <item>Map</item>
+        <item>Options</item>
+    </array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

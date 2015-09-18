@@ -1,0 +1,41 @@
+<!--<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccc"
+    android:choiceMode="singleChoice"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="0dp"
+    tools:context="com.example.yazid.meetup.fragments.NavigationDrawerFragment" />
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#cccc"
+    >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#000"
+        android:id="@+id/nav_header"
+        >
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/nav_header"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/recycleElements"
+        android:background="@android:color/transparent"
+        >
+    </android.support.v7.widget.RecyclerView>
+    
+    
+    
+
+</RelativeLayout>

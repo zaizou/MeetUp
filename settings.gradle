@@ -1,0 +1,5 @@
+include ':app',':ColoredTabing'
+
+/*
+include ':TabWithMaterial'
+project (':TabWithMaterial').projectDir = new File('libs/TabWithMaterial')*/
